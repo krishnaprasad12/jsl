@@ -22,6 +22,7 @@ import thumbnailShoe2 from './thumbnail-shoe2.svg'
 import thumbnailShoe3 from './thumbnail-shoe3.svg'
 import close from './close.svg'
 import menu from './menu.svg'
+import cow from './cow.png'
 
 export {
     bigShoe1,
@@ -29,6 +30,7 @@ export {
     bigShoe3,
     close,
     menu,
+    cow,
     customer1,
     customer2,
 

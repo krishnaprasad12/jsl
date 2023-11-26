@@ -31,43 +31,32 @@ export const statistics = [
 
 export const products = [
     {
-        imgURL: shoe4,
-        name: "Nike Air Jordan-01",
-        price: "$200.20",
+        imgURL: bigShoe1,
+        name: "Cow Milk - Pure Freshness",
     },
     {
-        imgURL: shoe5,
-        name: "Nike Air Jordan-10",
-        price: "$210.20",
-    },
-    {
-        imgURL: shoe6,
-        name: "Nike Air Jordan-100",
-        price: "$220.20",
-    },
-    {
-        imgURL: shoe7,
-        name: "Nike Air Jordan-001",
-        price: "$230.20",
+        imgURL: bigShoe3,
+        name: "Cow Ghee - Golden Essence",
     },
 ];
 
 export const services = [
     {
+        imgURL: support,
+        label: "Diverse Breed Goodness",
+        subtext: "Enjoy the richness of cow milk sourced from various breeds, including HF, Gir, and Indian cows."
+    },
+    {
         imgURL: truckFast,
-        label: "Free shipping",
-        subtext: "Enjoy seamless shopping with our complimentary shipping service."
+        label: "Pure Freshness",
+        subtext: "Experience unparalleled freshness, straight from our pasture to your palate, ensuring the highest quality in every drop."
     },
     {
         imgURL: shieldTick,
-        label: "Secure Payment",
-        subtext: "Experience worry-free transactions with our secure payment options."
+        label: "Golden Nutrient Boost",
+        subtext: "Our cow ghee, a golden essence, not only enhances flavor but also provides essential nutrients for a well-rounded and delicious lifestyle."
     },
-    {
-        imgURL: support,
-        label: "Love to help you",
-        subtext: "Our dedicated team is here to assist you every step of the way."
-    },
+    
 ];
 
 export const reviews = [
@@ -88,31 +77,24 @@ export const reviews = [
 
 export const footerLinks = [
     {
-        title: "Products",
-        links: [
-            { name: "Air Force 1", link: "/" },
-            { name: "Air Max 1", link: "/" },
-            { name: "Air Jordan 1", link: "/" },
-            { name: "Air Force 2", link: "/" },
-            { name: "Nike Waffle Racer", link: "/" },
-            { name: "Nike Cortez", link: "/" },
-        ],
-    },
-    {
-        title: "Help",
-        links: [
-            { name: "About us", link: "/" },
-            { name: "FAQs", link: "/" },
-            { name: "How it works", link: "/" },
-            { name: "Privacy policy", link: "/" },
-            { name: "Payment policy", link: "/" },
-        ],
-    },
-    {
         title: "Get in touch",
         links: [
-            { name: "customer@nike.com", link: "mailto:customer@nike.com" },
-            { name: "+92554862354", link: "tel:+92554862354" },
+            { name: "puramarajesh@gamil.com", link: "mailto:puramarajesh@gamil.com" },
+            { name: "7842802367", link: "tel:7842802367" },
+        ],
+    },
+    {
+        title: "Products",
+        links: [
+            { name: "Cow Milk", link: "/" },
+            { name: "Cow Ghee", link: "/" },
+        ],
+    },
+    {
+        title: "",
+        links: [
+            { name: "", link: "/" },
+            { name: "", link: "/" },
         ],
     },
 ];

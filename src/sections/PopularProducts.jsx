@@ -8,13 +8,13 @@ const PopularProducts = () => {
       className='max-container max-sm:mt-12'
     >
       <div className='flex flex-col justify-start gap-5'>
-        <h2 className='text-4xl font-palanquin font-bold'>Our <span className='text-coral-red'>  Popular</span> Products</h2>
+        <h2 className='text-4xl font-palanquin font-bold'><span className='text-coral-red'>Our Products</span></h2>
         <p className='lg:max-w-lg mt-2 font-montserrat text-slate-gray'>
-          Experience top-notch quality with our products. We have a wide range of products to choose from.
+        Discover the richness of Jaya Swarna Lalitha Cow Milk, sourced from various breeds including HF, Gir, and Indian cows. Indulge in the purity of our fresh cow ghee, a testament to our commitment to quality.
         </p>
       </div>
 
-      <div className='mt-16 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 sm:gap-4 gap-14'>
+      <div className='mt-16 grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 grid-cols-1 sm:gap-4 gap-14'>
         {products.map((product)=>(
           <PopularProductCard key={product.name} {...product} />
         ))}

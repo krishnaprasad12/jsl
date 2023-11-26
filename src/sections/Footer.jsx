@@ -1,6 +1,6 @@
 import { copyrightSign } from "../assets/icons";
 import { footerLogo } from "../assets/images";
-import { footerLinks, socialMedia } from "../constants";
+import { footerLinks} from "../constants";
 
 const Footer = () => {
   return (
@@ -17,19 +17,8 @@ const Footer = () => {
             />
           </a>
           <p className='mt-6 text-base leading-7 font-montserrat text-white-400 sm:max-w-sm'>
-            Get shoes ready for the new term at your nearest Nike store. Find
-            Your perfect Size In Store. Get Rewards
+          Uniting Tradition and Innovation, Delivering Premium Dairy Excellence with Freshness, Richness, and Nutritional Essence.
           </p>
-          <div className='flex items-center gap-5 mt-8'>
-            {socialMedia.map((icon) => (
-              <div
-                className='flex justify-center items-center w-12 h-12 bg-white rounded-full'
-                key={icon.alt}
-              >
-                <img src={icon.src} alt={icon.alt} width={24} height={24} />
-              </div>
-            ))}
-          </div>
         </div>
 
         <div className='flex flex-1 justify-between lg:gap-10 gap-20 flex-wrap'>
@@ -64,7 +53,6 @@ const Footer = () => {
           />
           <p>Copyright. All rights reserved.</p>
         </div>
-        <p className='font-montserrat cursor-pointer'>Terms & Conditions</p>
       </div>
     </footer>
   );

@@ -1,4 +1,4 @@
-import { shoe8 } from "../assets/images";
+import { cow } from "../assets/images";
 import Button from "../components/Button";
 
 const SuperQuality = () => {
@@ -9,26 +9,17 @@ const SuperQuality = () => {
     >
       <div className='flex flex-1 flex-col'>
         <h2 className='font-palanquin capitalize text-4xl lg:max-w-lg font-bold'>
-          We Provide You
-          <span className='text-coral-red'> Super </span>
-          <span className='text-coral-red'>Quality </span> Shoes
+          Indulge in Premium Dairy Goodness: <br />
+          <span className='text-coral-red'> JSL Cow Products</span>
         </h2>
         <p className='mt-4 lg:max-w-lg info-text'>
-          Ensuring premium comfort and style, our meticulously crafted footwear
-          is designed to elevate your experience, providing you with unmatched
-          quality, innovation, and a touch of elegance.
+        Ensuring superior quality and taste, our meticulously sourced cow milk and ghee are crafted to elevate your daily nourishment. Experience unmatched freshness, innovation, and a touch of tradition, as our dedication to detail and excellence guarantees your satisfaction in every JSL product.
         </p>
-        <p className='mt-6 lg:max-w-lg info-text'>
-          Our dedication to detail and excellence ensures your satisfaction
-        </p>
-        <div className='mt-11'>
-          <Button label='View details' />
-        </div>
       </div>
 
       <div className='flex-1 flex justify-center items-center'>
         <img
-          src={shoe8}
+          src={cow}
           alt='product detail'
           width={570}
           height={522}

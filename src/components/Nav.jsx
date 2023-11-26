@@ -11,7 +11,7 @@ const Nav = () => {
             src={headerLogo}
             alt='logo'
             width={129}
-            height={29}
+            height={40}
             className='m-0 w-[129px] h-[29px]'
           />
         </a>
